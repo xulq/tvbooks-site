@@ -1,15 +1,15 @@
-# TVBooks website
+# BookAlong（随阅）website
 
-Official public website for the independently developed TVBooks EPUB reader for Apple TV.
+Official website for BookAlong, an independent library and reader for your own EPUB and PDF books.
 
-- Website: https://xulq.github.io/tvbooks-site/
-- Support: https://xulq.github.io/tvbooks-site/support/
-- Privacy: https://xulq.github.io/tvbooks-site/privacy/
-- Publisher: Johnny Xu
-- Support email: xiaoqiang.xlq@gmail.com
+- [Website](https://xulq.github.io/tvbooks-site/)
+- [Support](https://xulq.github.io/tvbooks-site/support/)
+- [Privacy](https://xulq.github.io/tvbooks-site/privacy/)
+- Publisher — Johnny Xu
+- Support — xiaoqiang.xlq@gmail.com
 
-This repository contains only the static public website, selected app artwork and screenshots of original getting-started content. It does not contain the application source, signing configuration, private books or credentials.
+GitHub Pages serves this bilingual static site. The HTML files are the site source. From the project root, run `python3 scripts/build_website.py --release` to check the pages and release settings before publishing. The public repository includes the website, approved brand artwork and screenshots of original getting-started content. Language preference is stored in the visitor’s browser. The site uses no third-party analytics or contact-form backend.
 
-The included artwork and original content are © 2026 Johnny Xu. Apple TV and Apple Books are Apple products; TVBooks is independent and is not affiliated with Apple.
+The Apple TV app is in internal TestFlight testing. The Mac library and reader are in testing, and iPhone and iPad are planned. The website’s availability section tracks the release status.
 
-The website is served with GitHub Pages. No third-party analytics or contact-form backend is installed. Language preference stays in the visitor's local storage. Availability and storefront prices are displayed as planned until the app is released; local App Store listings control actual purchases.
+The included artwork and original content are © 2026 Johnny Xu. Apple TV and Apple Books are Apple products. BookAlong is independently developed.
